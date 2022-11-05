@@ -41,7 +41,7 @@ function Contact() {
     setAlert('Success!');
     setMsg('Thanks for your kind words!')
     fetch(
-      "https://zehra-base-default-rtdb.asia-southeast1.firebasedatabase.app/bookStash.json",
+      "https://amir-base-default-rtdb.asia-southeast1.firebasedatabase.app/bookshow.json",
       {
         method: "POST",
         headers: {
