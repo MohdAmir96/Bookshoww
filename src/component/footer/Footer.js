@@ -1,16 +1,14 @@
-import React from 'react';
-import './Footer.css';
-import facebook from '../Assets/facebook.png';
-import instagram from '../Assets/instagram.png';
-import twitter from '../Assets/twitter.png';
+import React from "react";
+import "./Footer.css";
+import facebook from "../Assets/facebook.png";
+import instagram from "../Assets/instagram.png";
+import twitter from "../Assets/twitter.png";
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className="footer-container">
       <div className="footer-top">
-
         <div className="footer-col">
-
           <div className="footer-logo">
             <h1>Bookshow</h1>
           </div>
@@ -24,13 +22,11 @@ function Footer() {
             <span>+91-98765 43210</span>
           </div>
         </div>
-
-
         <div className="footer-col">
           <table>
             <thead>
               <tr>
-                <th>About BookStash</th>
+                <th>About Bookshow</th>
                 <th>Help & FAQs</th>
                 <th>Ways to Shop</th>
               </tr>
@@ -61,10 +57,12 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Made with <span>💗</span> by Mohd Amir.</p>
+        <p>
+          Made with <span>💗</span> by Mohd Amir
+        </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
