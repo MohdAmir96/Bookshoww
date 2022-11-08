@@ -48,7 +48,7 @@ function Footer() {
                 <td>Beauty Magazines</td>
               </tr>
               <tr>
-                <td>Bookstash Global Sites</td>
+                <td>Bookshow Global Sites</td>
                 <td>Flash Unlimited Shipping</td>
                 <td>Contact Us</td>
               </tr>
